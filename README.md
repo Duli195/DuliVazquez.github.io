@@ -20,6 +20,7 @@ A partir de ellas, se ejecutan consultas SQL que miden el rendimiento de las ope
 - **Inventario valorizado:** estima el valor total del stock por almacén.  
 Además, se desarrollaron consultas adicionales para detectar backorders, alertas de inventario bajo, puntualidad y retrasos por transportista, y fill rate promedio por producto.  
 Estos indicadores permiten tomar decisiones más informadas sobre eficiencia operativa, control de inventarios y desempeño logístico.
+
 ---
 ##Conclusiones
 El proyecto demuestra que una **base de datos bien estructurada** puede convertirse en una herramienta esencial para **analizar el rendimiento logístico** y detectar oportunidades de mejora.  
@@ -34,7 +35,6 @@ En conjunto, este trabajo reafirma el valor del **análisis de datos en la logí
 ## Descripción general
 Este proyecto se enfoca en el **análisis y predicción de la eficiencia de recuperación de oro** en un proceso industrial de flotación y purificación.  
 El objetivo principal fue desarrollar un modelo predictivo que permitiera estimar el nivel de recuperación del metal precioso a partir de datos históricos del proceso, optimizando así la producción y mejorando la toma de decisiones operativas.
-
 El análisis incluyó la **validación de fórmulas metalúrgicas**, la **limpieza de datos**, la **detección de anomalías** y la construcción de modelos de aprendizaje automático para estimar la recuperación en distintas etapas del proceso.  
 A través de un enfoque de evaluación y comparación de modelos, se identificó la alternativa con mejor desempeño, destacando la importancia de la calidad de los datos y la coherencia física en el modelado predictivo.
 
@@ -42,7 +42,6 @@ A través de un enfoque de evaluación y comparación de modelos, se identificó
 ## Resultados generales
 Durante la validación, se comprobó la coherencia entre los valores reales y los calculados de recuperación, con un **error promedio aceptable**, lo que confirmó la consistencia general de los datos.  
 Posteriormente, los modelos predictivos desarrollados fueron evaluados con la métrica **sMAPE (Symmetric Mean Absolute Percentage Error)**, dando como resultado un desempeño satisfactorio, especialmente en la predicción de la etapa final del proceso.
-
 El modelo mostró mayor precisión en la **recuperación final**, la etapa más relevante para la producción y rentabilidad, mientras que la **recuperación rougher** presentó mayor variabilidad, indicando margen de mejora en fases tempranas del proceso.
 
 ---
@@ -67,26 +66,31 @@ Durante el análisis se desarrollaron visualizaciones descriptivas que muestran:
 - La distribución de ventas por género y región.  
 - La relación entre las reseñas de críticos y usuarios con las ventas.  
 - Las diferencias significativas en calificaciones entre plataformas y tipos de juegos.
+  
 ---
 ## Conclusiones
 ### Preparación y limpieza de datos
 - Se revisaron y transformaron las columnas para corregir errores de formato, convertir tipos de datos y tratar valores ausentes.  
-- Se reemplazaron los valores `'tbd'` de la columna `user_score` por `NaN` para evitar sesgos en el análisis.  
+- Se reemplazaron los valores `'tbd'` de la columna `user_score` por `NaN` para evitar sesgos en el análisis.
+   
 ---
 ### Análisis general
 - El número de lanzamientos alcanzó su **pico entre 2008 y 2011**, seguido por una reducción en años posteriores.  
 - Las **plataformas históricamente más exitosas** fueron **PS2**, **X360** y **Wii**, mientras que **PS4** y **3DS** dominaron los últimos años del análisis.  
 - Los **géneros de Acción, Deporte y Shooter** concentraron la mayoría de las ventas globales.  
 - Se observó una **correlación positiva entre las críticas de expertos y las ventas**, especialmente en plataformas como PS4, mientras que la influencia de las calificaciones de usuarios fue más débil.
+  
 ---
 ### Preferencias regionales
 - **Norteamérica y Europa** mostraron preferencia por consolas de sobremesa como **X360** y **PS3**.  
 - **Japón** destacó por su preferencia hacia **plataformas portátiles** como **3DS** y **DS**, y por su afinidad con los juegos de **Rol (RPG)**.  
-- Las **clasificaciones ESRB** influyeron más en los mercados de **NA y EU** que en Japón.  
+- Las **clasificaciones ESRB** influyeron más en los mercados de **NA y EU** que en Japón.
+  
 ---
 ### Resultados de las pruebas de hipótesis
 - **H₁:** Se detectó una **diferencia significativa** entre las calificaciones promedio de usuarios en **Xbox One y PC**, lo que sugiere distintos perfiles de usuario por plataforma.  
-- **H₂:** **No se encontró diferencia significativa** entre las calificaciones de los géneros **Acción y Deportes**, lo que indica una percepción similar entre jugadores en esos segmentos.  
+- **H₂:** **No se encontró diferencia significativa** entre las calificaciones de los géneros **Acción y Deportes**, lo que indica una percepción similar entre jugadores en esos segmentos.
+  
 ---
 ### Recomendaciones
 - Enfocar las campañas de marketing de **juegos de acción y disparos** en los mercados de **Norteamérica y Europa**, especialmente en **PS4** y **XOne**.  
@@ -104,6 +108,7 @@ El análisis se basa en la creación de visualizaciones dinámicas que permiten 
 - La **distribución del kilometraje** de los vehículos disponibles.  
 - La **relación entre el odómetro y el precio**, mostrando cómo el uso y la antigüedad influyen en el valor de mercado.  
 Estas visualizaciones permiten al usuario explorar la información de forma interactiva, facilitando la detección de tendencias y comportamientos generales dentro del mercado automotriz.
+
 ---
 ## Conclusiones
 - La mayoría de los vehículos en venta presentan **niveles moderados de kilometraje**, lo cual sugiere una alta rotación de autos usados en condiciones intermedias de uso.  

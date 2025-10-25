@@ -66,13 +66,13 @@ Durante el análisis se desarrollaron visualizaciones descriptivas que muestran:
 - La distribución de ventas por género y región.  
 - La relación entre las reseñas de críticos y usuarios con las ventas.  
 - Las diferencias significativas en calificaciones entre plataformas y tipos de juegos.
-  
+
 ---
 ## Conclusiones
 ### Preparación y limpieza de datos
 - Se revisaron y transformaron las columnas para corregir errores de formato, convertir tipos de datos y tratar valores ausentes.  
 - Se reemplazaron los valores `'tbd'` de la columna `user_score` por `NaN` para evitar sesgos en el análisis.
-   
+ 
 ---
 ### Análisis general
 - El número de lanzamientos alcanzó su **pico entre 2008 y 2011**, seguido por una reducción en años posteriores.  
@@ -85,12 +85,12 @@ Durante el análisis se desarrollaron visualizaciones descriptivas que muestran:
 - **Norteamérica y Europa** mostraron preferencia por consolas de sobremesa como **X360** y **PS3**.  
 - **Japón** destacó por su preferencia hacia **plataformas portátiles** como **3DS** y **DS**, y por su afinidad con los juegos de **Rol (RPG)**.  
 - Las **clasificaciones ESRB** influyeron más en los mercados de **NA y EU** que en Japón.
-  
+
 ---
 ### Resultados de las pruebas de hipótesis
 - **H₁:** Se detectó una **diferencia significativa** entre las calificaciones promedio de usuarios en **Xbox One y PC**, lo que sugiere distintos perfiles de usuario por plataforma.  
 - **H₂:** **No se encontró diferencia significativa** entre las calificaciones de los géneros **Acción y Deportes**, lo que indica una percepción similar entre jugadores en esos segmentos.
-  
+
 ---
 ### Recomendaciones
 - Enfocar las campañas de marketing de **juegos de acción y disparos** en los mercados de **Norteamérica y Europa**, especialmente en **PS4** y **XOne**.  
